@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d55d62fa52.js" crossorigin="anonymous"></script>
+    <title>Login</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: url(emp.avif) no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .container {
+            color: white;
+            text-align: center;
+            position: absolute;
+            top: 20%;
+            left: 35%;
+            border: 2px solid white;
+            background-color: black;
+            opacity: 0.85;
+            padding: 80px 50px;
+
+        }
+
+        .container h1 {
+            font-family: 'Heebo', sans-serif;
+            width: 50%;
+            display: inline-block;
+            font-size: 38px;
+            /* border: 5px solid white; */
+            margin-bottom: 15px;
+            padding: 5% 5%;
+        }
+
+        .box {
+            width: 70%;
+            margin: 30px 50px;
+            border: 2px solid white;
+            border-radius: 5px;
+            /* padding-top: 2%; */
+        }
+
+        .box input {
+            background: none;
+            width: 75%;
+            padding: 5px 10px;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            color: white;
+            /* margin-top: 5%; */
+        }
+
+        ::placeholder {
+            color: white;
+        }
+
+        .btn {
+            color: white;
+            cursor: pointer;
+            outline: none;
+            margin: 12px 0;
+            padding: 10px 21px;
+            border: 2px solid;
+            border-radius: 10px;
+            font-size: 18px;
+            background: none;
+            font-weight: bold;
+
+        }
+
+        .box i {
+            width: 25px;
+            text-align: center;
+        }
+
+        .btn:hover {
+            opacity: 0.5;
+            color: white;
+            background: white;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <div class="box">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="text" name="text" id="email" placeholder="Enter Your id">
+        </div>
+
+        <div class="box">
+            <i class="fa fa-key"></i>
+            <input type="password" name="password" id="password" placeholder="Enter Your Password">
+        </div>
+        <button class="btn">Sign In</button>
+
+
+    </div>
+</body>
+
+</html>
